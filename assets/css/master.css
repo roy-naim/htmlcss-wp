@@ -5,12 +5,28 @@
   background-color: #E57AE6;  /*pink color*/
   height: 100px;
 }
+.main-logo {
+  max-height: 50px;
+}
 
 header {
   height: 100px;
   width: 100%;
   /*border: 1px solid blue;*/
-  margin-bottom: 25px
+  margin-bottom: 25px;
+  color: #B1B1B1;
+  font-size: 20px;
+}
+
+.menu-text ul li a {
+  display: inline-block;
+  margin: 0 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu-text ul li:first-child {
+  margin-left: 0;
 }
 
 footer {
